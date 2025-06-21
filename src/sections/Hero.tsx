@@ -16,7 +16,7 @@ export const Hero = () => {
   return (
     <motion.section
       ref={sectionRef}
-      className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative"
+      className="h-screen md:h-[800px] flex items-center overflow-hidden relative"
       style={{ backgroundPositionY }}
     >
       {/* Enhanced Multi-Layer Electric Background */}
